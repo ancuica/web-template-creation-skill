@@ -1,5 +1,8 @@
 # web-template-creation-skill
 
+> [!NOTE]
+> This skill is now part of a combined project — the full **analyze → template → audit** loop lives at **[ancuica/web-design-pipeline](https://github.com/ancuica/web-design-pipeline)** (see `skills/web-template-creator`). This standalone repo remains available, but new work happens in the combined project.
+
 An [agent skill](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/overview) that turns a **website-analysis note** into a **reusable website template package** — markdown files that wrap HTML, a config of `{{PLACEHOLDER}}` keys, a style guide, and a one-shot extractor. It captures a site's *design system* so you can reproduce the look for your own brand with your own art and copy — not a clone.
 
 ## What it does
